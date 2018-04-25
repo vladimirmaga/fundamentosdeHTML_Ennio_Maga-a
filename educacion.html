@@ -4,13 +4,10 @@
     <title>Curriculum Vitae-Educación</title>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" widht=device-widht>
-  
-  </head>
+    </head>
   <body style="font-family:verdana;">
     <svg>
-      <image  xlink:href ="img/logo.svg"
-     alt="mi logo" >
-   </image>
+      <image  xlink:href ="img/logo.svg" alt="mi logo" >   </image>
     </svg>
 
 <header>
@@ -55,47 +52,52 @@
       </tr>
     </table>
     <br>
-    <form name="Agregarestudios" action="index.html" method="post">
+    <form name="Agregarestudios" action="" method="post">
       <fieldset><legend>Agregar Estudios</legend>
         <label for="año">Año:</label>
-        <select  name="año" required>
-          <option value="elige el año"></option>
-  <option value="2005"></option>
-  <option value="2006"></option>
-  <option value="2007"></option>
-  <option value="2008"></option>
-  <option value="2009"></option>
-  <option value="2010"></option>
-  <option value="2011"></option>
-  <option value="2012"></option>
-  <option value="2013"></option>
-  <option value="2014"></option>
-  <option value="2015"></option>
-  <option value="2016"></option>
-  <option value="2017"></option>
-  <option value="2018"></option>
-        </select>
-      </fieldset>
+        <br>
+        <select  name="año">
+          <option value="">elige el año</option>
+          <option value="">2005</option>
+          <option value="">2006</option>
+          <option value="">2007</option>
+          <option value="">2008</option>
+          <option value="">2009</option>
+          <option value="">2010</option>
+          <option value="">2011</option>
+          <option value="">2012</option>
+          <option value="">2013</option>
+          <option value="">2014</option>
+          <option value="">2015</option>
+          <option value="">2016</option>
+          <option value="">2017</option>
+          <option value="">2018</option>
+  </select>
+  <br>
+  <label for="">Institución:</label>  <br>
+  <input type="text" name="Instituto" value="" placeholder="Universidad Rafael Landívar" required size="65">
+  <br>
+  <label for="">Lugar:</label>  <br>
+  <textarea name="lugar" rows="4" cols="65" placeholder="Guatemala"></textarea>
+  <br>
+  <label for="">¿Culminó?</label>  <br>
+  <input type="radio" name="si" checked>SI
+  <input type="radio" name="no">NO
+  <br/>
+  <input type="submit" value="Enviar">
+</fieldset>
 
       </form>
     <br>
     <footer>
     <em>Información de contacto:  derechos reservados </em>
     <br>
+    <p>Dirección: 4a. Calle A Chiquimula, Guatemla</p><br>
     <a href="mailto:ennio.magana@gmail.com">mi correo electrónico</a>
     <em>
       <a href="https://www.facebook.com/ennio.magana">visítame en facebook</a>
     </em>
     </footer>
-    <video controls>
-  <source src="videos/video.mp4" type="video/mp4">
-  Texto cuando tu browser no soporta video
-</video>
-<audio controls autoplay>
-		<source src="audios/audio.mp3" type="audio/mp3">
-		Texto cuando tu browser no soporta audio
-	</audio>
-    <p title="Párrafo sobre el programa Android">
-
+  
   </body>
 </html>
